@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <fragment
+        android:id="@+id/google_map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MapsActivity" />
+
+    <ImageView
+        android:id="@+id/userLocation"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="115dp"
+        android:layout_marginEnd="10dp"
+        android:src="@drawable/user_location" />
+
+    <ImageView
+        android:id="@+id/crimeFeed"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="160dp"
+        android:layout_marginEnd="10dp"
+        android:src="@drawable/crime_feed" />
+
+    <RelativeLayout
+        android:id="@id/layout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/white_round_background"
+        android:elevation="10dp">
+
+        <EditText
+            android:id="@+id/searchbar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="0dp"
+            android:layout_toRightOf="@id/return_arrow"
+            android:background="@null"
+            android:hint="Enter Location"
+            android:imeOptions="actionSearch"
+            android:singleLine="true"
+            android:textColor="#000"
+            android:textColorHint="#000"
+            android:textSize="15sp" />
+
+        <ImageView
+            android:id="@+id/return_arrow"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:contentDescription="Back button to main_activity"
+            android:src="@drawable/return_arrow" />
+
+    </RelativeLayout>
+
+
+    <HorizontalScrollView
+        android:id="@+id/scroll_view"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="70dp"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/displayAllCrimes"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:layout_marginEnd="5dp"
+                android:background="@drawable/white_round_background"
+                android:text="All crimes"
+                android:textColor="#000"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/anti_social"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:layout_marginEnd="5dp"
+                android:background="@drawable/white_round_background"
+                android:text="Anti-Social"
+                android:textColor="#000"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/bicycle_theft"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:layout_marginEnd="5dp"
+                android:background="@drawable/white_round_background"
+                android:text="Bicycle theft"
+                android:textColor="#000"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/burglary"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:layout_marginEnd="5dp"
+                android:background="@drawable/white_round_background"
+                android:text="Burglary"
+                android:textColor="#000"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/criminal_damage"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:layout_marginEnd="5dp"
+                android:background="@drawable/white_round_background"
+                android:text="Criminal damage"
+                android:textColor="#000"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/drugs"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:layout_marginEnd="5dp"
+                android:background="@drawable/white_round_background"
+                android:text="Drugs"
+                android:textColor="#000"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/other_theft"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:layout_marginEnd="5dp"
+                android:background="@drawable/white_round_background"
+                android:text="Other theft"
+                android:textColor="#000"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/weapons"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:layout_marginEnd="5dp"
+                android:background="@drawable/white_round_background"
+                android:text="Weapons"
+                android:textColor="#000"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/public_order"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:layout_marginEnd="5dp"
+                android:background="@drawable/white_round_background"
+                android:text="Public order"
+                android:textColor="#000"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/robbery"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:layout_marginEnd="5dp"
+                android:background="@drawable/white_round_background"
+                android:text="Robbery"
+                android:textColor="#000"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/shoplifting"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:layout_marginEnd="5dp"
+                android:background="@drawable/white_round_background"
+                android:text="Shoplifting"
+                android:textColor="#000"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/theft_from_person"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:layout_marginEnd="5dp"
+                android:background="@drawable/white_round_background"
+                android:text="Theft from person"
+                android:textColor="#000"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/vehicle_crime"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:layout_marginEnd="5dp"
+                android:background="@drawable/white_round_background"
+                android:text="Vehicle crime"
+                android:textColor="#000"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/violence_sexual_assault"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:layout_marginEnd="5dp"
+                android:background="@drawable/white_round_background"
+                android:text="Violence and sexual assault"
+                android:textColor="#000"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/other_crime"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:layout_marginEnd="5dp"
+                android:background="@drawable/white_round_background"
+                android:text="Other crime"
+                android:textColor="#000"
+                android:textSize="10sp" />
+        </LinearLayout>
+    </HorizontalScrollView>
+</RelativeLayout>

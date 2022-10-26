@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "785659106336",
+    "firebase_url": "https://crimemap-3106b-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "crimemap-3106b",
+    "storage_bucket": "crimemap-3106b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:785659106336:android:60d4699d02b147476dd845",
+        "android_client_info": {
+          "package_name": "com.example.crimemap_up920915"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "785659106336-qtkdpn0jnjqbq914fju0mrl0r584u02n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDaiGFwUnvh9VSx0Zetk8v83kC6ma8RUow"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "785659106336-qtkdpn0jnjqbq914fju0mrl0r584u02n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:785659106336:android:a9a4e3075e6fc1526dd845",
+        "android_client_info": {
+          "package_name": "com.example.properattempt"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "785659106336-qtkdpn0jnjqbq914fju0mrl0r584u02n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDaiGFwUnvh9VSx0Zetk8v83kC6ma8RUow"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "785659106336-qtkdpn0jnjqbq914fju0mrl0r584u02n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
